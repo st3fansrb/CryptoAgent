@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Runtime data artifacts
+data/market.db
+data/market.db-journal
+data/market.db-wal
+data/market.db-shm
+chroma/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# OS
+.DS_Store
